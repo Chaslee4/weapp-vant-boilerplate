@@ -1,0 +1,6 @@
+<view>
+  <view>
+    <image class="icon-success" mode="aspectFill" src="../../assets/img/index/icon-success.png" />
+    <van-stepper value="{{ count }}" bind:change="onChange" />
+  </view>
+</view>
